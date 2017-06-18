@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/air/Pictures'
+let g:netrw_dirhist_2='/Users/air/Music'
+let g:netrw_dirhist_3='/Users/air/Movies'
+let g:netrw_dirhist_4='/Users/air/Library'
