@@ -18,13 +18,13 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1497782019,,"wq"
+|2,0,1497784106,,"wq"
 :q
-|2,0,1497765502,,"q"
+|2,0,1497783633,,"q"
+:q!
+|2,0,1497783495,,"q!"
 :w
 |2,0,1497764623,,"w"
-:q!
-|2,0,1497764462,,"q!"
 :'<,'>q!
 |2,0,1497764459,,"'<,'>q!"
 :ls
@@ -77,10 +77,10 @@ $
 |2,0,0,,"colorscheme elflord"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1497783484,,"@$"
 ??\a
 |2,1,1497505320,63,"\\a"
-? @$
-|2,1,1497505320,,"@$"
 ?/autoload
 |2,1,1497500275,47,"autoload"
 ? \<set\>
@@ -99,270 +99,277 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	=========================================================================================
-|3,0,0,1,1,0,1497505320,"========================================================================================="
+"0	CHAR	0
+	w
+|3,0,0,0,1,0,1497783484,"w"
 "1	LINE	0
-	.vim/backup
-|3,0,1,1,1,0,1497781967,".vim/backup"
+	.zsh_history
+|3,0,1,1,1,0,1497783484,".zsh_history"
 "2	LINE	0
-	# 「.vim/backup」フォルダを除外
-|3,0,2,1,1,0,1497781966,"# 「.vim/backup」フォルダを除外"
+	.zshrc@
+|3,0,2,1,1,0,1497783484,".zshrc@"
 "3	LINE	0
-	.vol/
-|3,0,3,1,1,0,1497505320,".vol/"
+	.zshenv@
+|3,0,3,1,1,0,1497783484,".zshenv@"
 "4	LINE	0
-	.Trashes/
-|3,0,4,1,1,0,1497505320,".Trashes/"
+	.zprofile@
+|3,0,4,1,1,0,1497783484,".zprofile@"
 "5	LINE	0
-	.Spotlight-V100/
-|3,0,5,1,1,0,1497505320,".Spotlight-V100/"
+	.zpreztorc@
+|3,0,5,1,1,0,1497783484,".zpreztorc@"
 "6	LINE	0
-	.OSInstallerMessages
-|3,0,6,1,1,0,1497505320,".OSInstallerMessages"
+	.zprezto/
+|3,0,6,1,1,0,1497783484,".zprezto/"
 "7	LINE	0
-	.fseventsd/
-|3,0,7,1,1,0,1497505320,".fseventsd/"
+	.zlogout@
+|3,0,7,1,1,0,1497783484,".zlogout@"
 "8	LINE	0
-	.file
-|3,0,8,1,1,0,1497505320,".file"
+	.zlogin@
+|3,0,8,1,1,0,1497783484,".zlogin@"
 "9	LINE	0
-	.DS_Store
-|3,0,9,1,1,0,1497505320,".DS_Store"
+	.zcompdump.zwc
+|3,0,9,1,1,0,1497783484,".zcompdump.zwc"
 ""-	CHAR	0
-	\
-|3,1,36,0,1,0,1497782013,"\\"
+	*
+|3,1,36,0,1,0,1497784081,"*"
 
 # File marks:
-'0  2  8  ~/dotfiles/.gitignore
-|4,48,2,8,1497782019,"~/dotfiles/.gitignore"
-'1  1  7  ~/dotfiles/.gitignore
-|4,49,1,7,1497781871,"~/dotfiles/.gitignore"
-'2  1  7  ~/dotfiles/.gitignore
-|4,50,1,7,1497781871,"~/dotfiles/.gitignore"
-'3  1  0  ~/.vim/NetrwTreeListing 
-|4,51,1,0,1497765502,"~/.vim/NetrwTreeListing "
-'4  124  0  ~/.zshrc
-|4,52,124,0,1497765317,"~/.zshrc"
-'5  1  0  ~/.zshrc
-|4,53,1,0,1497765286,"~/.zshrc"
-'6  1  0  ~/.zshrc
-|4,54,1,0,1497765286,"~/.zshrc"
-'7  125  0  ~/.zshrc
-|4,55,125,0,1497765273,"~/.zshrc"
-'8  125  0  ~/.zshrc
-|4,56,125,0,1497765273,"~/.zshrc"
-'9  125  0  ~/.zshrc
-|4,57,125,0,1497765273,"~/.zshrc"
+'0  1  0  ~/dotfiles/.vim/.gitkeep
+|4,48,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
+'1  1  5  ~/dotfiles/.gitignore
+|4,49,1,5,1497784086,"~/dotfiles/.gitignore"
+'2  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,50,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+'3  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,51,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+'4  2  0  ~/dotfiles/dotfilesLink.sh
+|4,52,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+'5  23  3  ~/NetrwTreeListing 1
+|4,53,23,3,1497783495,"~/NetrwTreeListing 1"
+'6  96  1  ~/dotfiles/.tmux.conf
+|4,54,96,1,1497783432,"~/dotfiles/.tmux.conf"
+'7  98  0  ~/dotfiles/.tmux.conf
+|4,55,98,0,1497783389,"~/dotfiles/.tmux.conf"
+'8  98  0  ~/dotfiles/.tmux.conf
+|4,56,98,0,1497783389,"~/dotfiles/.tmux.conf"
+'9  93  8  ~/dotfiles/.tmux.conf
+|4,57,93,8,1497783346,"~/dotfiles/.tmux.conf"
 
 # Jumplist (newest first):
--'  2  8  ~/dotfiles/.gitignore
-|4,39,2,8,1497782019,"~/dotfiles/.gitignore"
--'  1  8  ~/dotfiles/.gitignore
-|4,39,1,8,1497781984,"~/dotfiles/.gitignore"
--'  1  7  ~/dotfiles/.gitignore
-|4,39,1,7,1497781871,"~/dotfiles/.gitignore"
--'  1  0  ~/.vim/NetrwTreeListing 
-|4,39,1,0,1497765502,"~/.vim/NetrwTreeListing "
--'  1  0  ~/.vim/NetrwTreeListing 
-|4,39,1,0,1497765502,"~/.vim/NetrwTreeListing "
--'  1  0  ~/.vim/NetrwTreeListing 
-|4,39,1,0,1497765502,"~/.vim/NetrwTreeListing "
--'  1  0  ~/.vim/NetrwTreeListing 
-|4,39,1,0,1497765502,"~/.vim/NetrwTreeListing "
--'  124  0  ~/.zshrc
-|4,39,124,0,1497765317,"~/.zshrc"
--'  124  0  ~/.zshrc
-|4,39,124,0,1497765317,"~/.zshrc"
--'  124  0  ~/.zshrc
-|4,39,124,0,1497765317,"~/.zshrc"
--'  124  0  ~/.zshrc
-|4,39,124,0,1497765317,"~/.zshrc"
--'  124  0  ~/.zshrc
-|4,39,124,0,1497765317,"~/.zshrc"
--'  124  0  ~/.zshrc
-|4,39,124,0,1497765317,"~/.zshrc"
--'  124  0  ~/.zshrc
-|4,39,124,0,1497765317,"~/.zshrc"
--'  124  0  ~/.zshrc
-|4,39,124,0,1497765317,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765303,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765303,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765303,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765303,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765303,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765303,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765303,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765303,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765286,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765286,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765286,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765286,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765286,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765286,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765286,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765286,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1497765273,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765252,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765252,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765252,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765252,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765252,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765252,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765252,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1497765252,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  17  1  ~/.zshrc
-|4,39,17,1,1497765192,"~/.zshrc"
--'  167  16  ~/.zshrc
-|4,39,167,16,1497765186,"~/.zshrc"
--'  167  16  ~/.zshrc
-|4,39,167,16,1497765186,"~/.zshrc"
--'  167  16  ~/.zshrc
-|4,39,167,16,1497765186,"~/.zshrc"
--'  167  16  ~/.zshrc
-|4,39,167,16,1497765186,"~/.zshrc"
--'  167  16  ~/.zshrc
-|4,39,167,16,1497765186,"~/.zshrc"
+-'  1  0  ~/dotfiles/.vim/.gitkeep
+|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
+-'  1  5  ~/dotfiles/.gitignore
+|4,39,1,5,1497784086,"~/dotfiles/.gitignore"
+-'  1  5  ~/dotfiles/.gitignore
+|4,39,1,5,1497784086,"~/dotfiles/.gitignore"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  2  0  ~/dotfiles/dotfilesLink.sh
+|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  23  3  ~/NetrwTreeListing 1
+|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
+-'  1  0  ~/
+|4,39,1,0,1497783484,"~/"
+-'  1  0  ~/
+|4,39,1,0,1497783484,"~/"
+-'  1  0  ~/
+|4,39,1,0,1497783484,"~/"
+-'  1  0  ~/
+|4,39,1,0,1497783484,"~/"
+-'  1  0  ~/
+|4,39,1,0,1497783484,"~/"
+-'  1  0  ~/
+|4,39,1,0,1497783484,"~/"
+-'  1  0  ~/
+|4,39,1,0,1497783484,"~/"
+-'  1  0  ~/
+|4,39,1,0,1497783484,"~/"
+-'  1  0  ~/
+|4,39,1,0,1497783484,"~/"
+-'  1  0  ~/
+|4,39,1,0,1497783484,"~/"
+-'  1  0  ~/
+|4,39,1,0,1497783484,"~/"
+-'  1  0  ~/
+|4,39,1,0,1497783484,"~/"
+-'  1  0  ~/
+|4,39,1,0,1497783484,"~/"
 
 # History of marks within files (newest to oldest):
 
+> ~/dotfiles/.vim/.gitkeep
+	*	1497784105	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
 > ~/dotfiles/.gitignore
-	*	1497782016	0
-	"	2	8
-	^	1	5
+	*	1497784083	0
+	"	1	5
+	^	1	4
 	.	1	4
 	+	1	10
 	+	1	9
@@ -372,19 +379,51 @@ $
 	+	2	0
 	+	1	4
 
+> ~/dotfiles/.vim/backup/.gitkeep
+	*	1497783981	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/dotfiles/.git/COMMIT_EDITMSG
+	*	1497783629	0
+	"	8	15
+
+> ~/dotfiles/dotfilesLink.sh
+	*	1497783525	0
+	"	2	0
+
+> ~/dotfiles/.tmux.conf
+	*	1497783430	0
+	"	96	1
+	^	93	1
+	.	93	0
+	+	76	0
+	+	119	66
+	+	93	3
+	+	92	0
+	+	94	0
+	+	95	0
+	+	96	0
+	+	93	0
+
+> ~/.zshrc
+	*	1497783028	0
+	"	232	1
+	^	231	0
+	.	230	33
+	+	1	0
+	+	1	23
+	+	232	0
+	+	123	16
+	+	168	0
+	+	169	0
+	+	230	33
+
 > ~/.vim/NetrwTreeListing
 	*	1497765500	0
 	"	1	0
-
-> ~/.zshrc
-	*	1497765316	0
-	"	124	0
-	^	123	17
-	.	123	16
-	+	1	0
-	+	1	23
-	+	167	0
-	+	123	16
 
 > /private/etc/shells
 	*	1497764837	0
