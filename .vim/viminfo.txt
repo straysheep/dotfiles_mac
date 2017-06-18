@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1497784106,,"wq"
+|2,0,1497785133,,"wq"
 :q
 |2,0,1497783633,,"q"
 :q!
@@ -99,9 +99,10 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	w
-|3,0,0,0,1,0,1497783484,"w"
+"0	LINE	0
+	.vim/backup/*  
+	!.gitkeep
+|3,0,0,1,2,0,1497785086,".vim/backup/*  ","!.gitkeep"
 "1	LINE	0
 	.zsh_history
 |3,0,1,1,1,0,1497783484,".zsh_history"
@@ -130,38 +131,130 @@ $
 	.zcompdump.zwc
 |3,0,9,1,1,0,1497783484,".zcompdump.zwc"
 ""-	CHAR	0
-	*
-|3,1,36,0,1,0,1497784081,"*"
+	backup
+|3,1,36,0,1,0,1497785128,"backup"
 
 # File marks:
-'0  1  0  ~/dotfiles/.vim/.gitkeep
-|4,48,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
-'1  1  5  ~/dotfiles/.gitignore
-|4,49,1,5,1497784086,"~/dotfiles/.gitignore"
-'2  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,50,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
-'3  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,51,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
-'4  2  0  ~/dotfiles/dotfilesLink.sh
-|4,52,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
-'5  23  3  ~/NetrwTreeListing 1
-|4,53,23,3,1497783495,"~/NetrwTreeListing 1"
-'6  96  1  ~/dotfiles/.tmux.conf
-|4,54,96,1,1497783432,"~/dotfiles/.tmux.conf"
-'7  98  0  ~/dotfiles/.tmux.conf
-|4,55,98,0,1497783389,"~/dotfiles/.tmux.conf"
-'8  98  0  ~/dotfiles/.tmux.conf
-|4,56,98,0,1497783389,"~/dotfiles/.tmux.conf"
-'9  93  8  ~/dotfiles/.tmux.conf
-|4,57,93,8,1497783346,"~/dotfiles/.tmux.conf"
+'0  4  10  ~/dotfiles/.gitignore
+|4,48,4,10,1497785133,"~/dotfiles/.gitignore"
+'1  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,49,1,0,1497784388,"~/dotfiles/.git/COMMIT_EDITMSG"
+'2  2  8  ~/dotfiles/.gitignore
+|4,50,2,8,1497784302,"~/dotfiles/.gitignore"
+'3  2  8  ~/dotfiles/.gitignore
+|4,51,2,8,1497784302,"~/dotfiles/.gitignore"
+'4  1  0  ~/dotfiles/.vim/.gitkeep
+|4,52,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
+'5  1  5  ~/dotfiles/.gitignore
+|4,53,1,5,1497784086,"~/dotfiles/.gitignore"
+'6  1  5  ~/dotfiles/.gitignore
+|4,54,1,5,1497784086,"~/dotfiles/.gitignore"
+'7  1  5  ~/dotfiles/.gitignore
+|4,55,1,5,1497784086,"~/dotfiles/.gitignore"
+'8  1  5  ~/dotfiles/.gitignore
+|4,56,1,5,1497784086,"~/dotfiles/.gitignore"
+'9  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,57,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
 
 # Jumplist (newest first):
+-'  4  10  ~/dotfiles/.gitignore
+|4,39,4,10,1497785133,"~/dotfiles/.gitignore"
+-'  1  0  ~/dotfiles/.gitignore
+|4,39,1,0,1497785081,"~/dotfiles/.gitignore"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497784388,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497784388,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  2  8  ~/dotfiles/.gitignore
+|4,39,2,8,1497784302,"~/dotfiles/.gitignore"
+-'  2  8  ~/dotfiles/.gitignore
+|4,39,2,8,1497784302,"~/dotfiles/.gitignore"
+-'  2  8  ~/dotfiles/.gitignore
+|4,39,2,8,1497784302,"~/dotfiles/.gitignore"
+-'  1  0  ~/dotfiles/.gitignore
+|4,39,1,0,1497784237,"~/dotfiles/.gitignore"
+-'  1  0  ~/dotfiles/.gitignore
+|4,39,1,0,1497784237,"~/dotfiles/.gitignore"
+-'  1  0  ~/dotfiles/.vim/.gitkeep
+|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/.gitkeep
+|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/.gitkeep
+|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/.gitkeep
+|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/.gitkeep
+|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/.gitkeep
+|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/.gitkeep
+|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
 -'  1  0  ~/dotfiles/.vim/.gitkeep
 |4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
 -'  1  5  ~/dotfiles/.gitignore
 |4,39,1,5,1497784086,"~/dotfiles/.gitignore"
 -'  1  5  ~/dotfiles/.gitignore
 |4,39,1,5,1497784086,"~/dotfiles/.gitignore"
+-'  1  5  ~/dotfiles/.gitignore
+|4,39,1,5,1497784086,"~/dotfiles/.gitignore"
+-'  1  5  ~/dotfiles/.gitignore
+|4,39,1,5,1497784086,"~/dotfiles/.gitignore"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+-'  1  0  ~/dotfiles/.vim/backup/.gitkeep
+|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
 -'  1  0  ~/dotfiles/.vim/backup/.gitkeep
 |4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
 -'  1  0  ~/dotfiles/.vim/backup/.gitkeep
@@ -186,6 +279,58 @@ $
 |4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
 -'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
 |4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
 -'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
 |4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
 -'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
@@ -202,162 +347,42 @@ $
 |4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
 -'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
 |4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  2  0  ~/dotfiles/dotfilesLink.sh
-|4,39,2,0,1497783526,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  1  0  ~/dotfiles/dotfilesLink.sh
-|4,39,1,0,1497783517,"~/dotfiles/dotfilesLink.sh"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  23  3  ~/NetrwTreeListing 1
-|4,39,23,3,1497783495,"~/NetrwTreeListing 1"
--'  1  0  ~/
-|4,39,1,0,1497783484,"~/"
--'  1  0  ~/
-|4,39,1,0,1497783484,"~/"
--'  1  0  ~/
-|4,39,1,0,1497783484,"~/"
--'  1  0  ~/
-|4,39,1,0,1497783484,"~/"
--'  1  0  ~/
-|4,39,1,0,1497783484,"~/"
--'  1  0  ~/
-|4,39,1,0,1497783484,"~/"
--'  1  0  ~/
-|4,39,1,0,1497783484,"~/"
--'  1  0  ~/
-|4,39,1,0,1497783484,"~/"
--'  1  0  ~/
-|4,39,1,0,1497783484,"~/"
--'  1  0  ~/
-|4,39,1,0,1497783484,"~/"
--'  1  0  ~/
-|4,39,1,0,1497783484,"~/"
--'  1  0  ~/
-|4,39,1,0,1497783484,"~/"
--'  1  0  ~/
-|4,39,1,0,1497783484,"~/"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/dotfiles/.gitignore
+	*	1497785131	0
+	"	4	10
+	^	4	9
+	.	4	8
+	+	1	10
+	+	1	9
+	+	1	4
+	+	1	9
+	+	1	7
+	+	2	0
+	+	1	4
+	+	9	0
+	+	3	0
+	+	6	0
+	+	3	0
+	+	10	12
+	+	7	8
+	+	4	8
+
+> ~/dotfiles/.git/COMMIT_EDITMSG
+	*	1497784378	0
+	"	1	0
 
 > ~/dotfiles/.vim/.gitkeep
 	*	1497784105	0
@@ -366,29 +391,12 @@ $
 	.	1	0
 	+	1	0
 
-> ~/dotfiles/.gitignore
-	*	1497784083	0
-	"	1	5
-	^	1	4
-	.	1	4
-	+	1	10
-	+	1	9
-	+	1	4
-	+	1	9
-	+	1	7
-	+	2	0
-	+	1	4
-
 > ~/dotfiles/.vim/backup/.gitkeep
 	*	1497783981	0
 	"	1	0
 	^	1	1
 	.	1	0
 	+	1	0
-
-> ~/dotfiles/.git/COMMIT_EDITMSG
-	*	1497783629	0
-	"	8	15
 
 > ~/dotfiles/dotfilesLink.sh
 	*	1497783525	0
