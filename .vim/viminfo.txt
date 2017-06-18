@@ -17,10 +17,10 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1497782019,,"wq"
 :q
 |2,0,1497765502,,"q"
-:wq
-|2,0,1497765317,,"wq"
 :w
 |2,0,1497764623,,"w"
 :q!
@@ -103,69 +103,117 @@ $
 	=========================================================================================
 |3,0,0,1,1,0,1497505320,"========================================================================================="
 "1	LINE	0
-	.vol/
-|3,0,1,1,1,0,1497505320,".vol/"
+	.vim/backup
+|3,0,1,1,1,0,1497781967,".vim/backup"
 "2	LINE	0
-	.Trashes/
-|3,0,2,1,1,0,1497505320,".Trashes/"
+	# 「.vim/backup」フォルダを除外
+|3,0,2,1,1,0,1497781966,"# 「.vim/backup」フォルダを除外"
 "3	LINE	0
-	.Spotlight-V100/
-|3,0,3,1,1,0,1497505320,".Spotlight-V100/"
+	.vol/
+|3,0,3,1,1,0,1497505320,".vol/"
 "4	LINE	0
-	.OSInstallerMessages
-|3,0,4,1,1,0,1497505320,".OSInstallerMessages"
+	.Trashes/
+|3,0,4,1,1,0,1497505320,".Trashes/"
 "5	LINE	0
-	.fseventsd/
-|3,0,5,1,1,0,1497505320,".fseventsd/"
+	.Spotlight-V100/
+|3,0,5,1,1,0,1497505320,".Spotlight-V100/"
 "6	LINE	0
-	.file
-|3,0,6,1,1,0,1497505320,".file"
+	.OSInstallerMessages
+|3,0,6,1,1,0,1497505320,".OSInstallerMessages"
 "7	LINE	0
-	.DS_Store
-|3,0,7,1,1,0,1497505320,".DS_Store"
+	.fseventsd/
+|3,0,7,1,1,0,1497505320,".fseventsd/"
 "8	LINE	0
-	.DocumentRevisions-V100/
-|3,0,8,1,1,0,1497505320,".DocumentRevisions-V100/"
+	.file
+|3,0,8,1,1,0,1497505320,".file"
 "9	LINE	0
-	../
-|3,0,9,1,1,0,1497505320,"../"
+	.DS_Store
+|3,0,9,1,1,0,1497505320,".DS_Store"
 ""-	CHAR	0
-	x
-|3,1,36,0,1,0,1497765313,"x"
+	\
+|3,1,36,0,1,0,1497782013,"\\"
 
 # File marks:
-'0  1  0  ~/.vim/NetrwTreeListing 
-|4,48,1,0,1497765502,"~/.vim/NetrwTreeListing "
-'1  124  0  ~/.zshrc
-|4,49,124,0,1497765317,"~/.zshrc"
-'2  1  0  ~/.zshrc
-|4,50,1,0,1497765286,"~/.zshrc"
-'3  1  0  ~/.zshrc
-|4,51,1,0,1497765286,"~/.zshrc"
-'4  125  0  ~/.zshrc
-|4,52,125,0,1497765273,"~/.zshrc"
-'5  125  0  ~/.zshrc
-|4,53,125,0,1497765273,"~/.zshrc"
-'6  125  0  ~/.zshrc
-|4,54,125,0,1497765273,"~/.zshrc"
+'0  2  8  ~/dotfiles/.gitignore
+|4,48,2,8,1497782019,"~/dotfiles/.gitignore"
+'1  1  7  ~/dotfiles/.gitignore
+|4,49,1,7,1497781871,"~/dotfiles/.gitignore"
+'2  1  7  ~/dotfiles/.gitignore
+|4,50,1,7,1497781871,"~/dotfiles/.gitignore"
+'3  1  0  ~/.vim/NetrwTreeListing 
+|4,51,1,0,1497765502,"~/.vim/NetrwTreeListing "
+'4  124  0  ~/.zshrc
+|4,52,124,0,1497765317,"~/.zshrc"
+'5  1  0  ~/.zshrc
+|4,53,1,0,1497765286,"~/.zshrc"
+'6  1  0  ~/.zshrc
+|4,54,1,0,1497765286,"~/.zshrc"
 '7  125  0  ~/.zshrc
 |4,55,125,0,1497765273,"~/.zshrc"
-'8  17  1  ~/.zshrc
-|4,56,17,1,1497765192,"~/.zshrc"
-'9  17  1  ~/.zshrc
-|4,57,17,1,1497765192,"~/.zshrc"
+'8  125  0  ~/.zshrc
+|4,56,125,0,1497765273,"~/.zshrc"
+'9  125  0  ~/.zshrc
+|4,57,125,0,1497765273,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  2  8  ~/dotfiles/.gitignore
+|4,39,2,8,1497782019,"~/dotfiles/.gitignore"
+-'  1  8  ~/dotfiles/.gitignore
+|4,39,1,8,1497781984,"~/dotfiles/.gitignore"
+-'  1  7  ~/dotfiles/.gitignore
+|4,39,1,7,1497781871,"~/dotfiles/.gitignore"
+-'  1  0  ~/.vim/NetrwTreeListing 
+|4,39,1,0,1497765502,"~/.vim/NetrwTreeListing "
+-'  1  0  ~/.vim/NetrwTreeListing 
+|4,39,1,0,1497765502,"~/.vim/NetrwTreeListing "
+-'  1  0  ~/.vim/NetrwTreeListing 
+|4,39,1,0,1497765502,"~/.vim/NetrwTreeListing "
 -'  1  0  ~/.vim/NetrwTreeListing 
 |4,39,1,0,1497765502,"~/.vim/NetrwTreeListing "
 -'  124  0  ~/.zshrc
 |4,39,124,0,1497765317,"~/.zshrc"
 -'  124  0  ~/.zshrc
 |4,39,124,0,1497765317,"~/.zshrc"
+-'  124  0  ~/.zshrc
+|4,39,124,0,1497765317,"~/.zshrc"
+-'  124  0  ~/.zshrc
+|4,39,124,0,1497765317,"~/.zshrc"
+-'  124  0  ~/.zshrc
+|4,39,124,0,1497765317,"~/.zshrc"
+-'  124  0  ~/.zshrc
+|4,39,124,0,1497765317,"~/.zshrc"
+-'  124  0  ~/.zshrc
+|4,39,124,0,1497765317,"~/.zshrc"
+-'  124  0  ~/.zshrc
+|4,39,124,0,1497765317,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1497765303,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1497765303,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765303,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765303,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765303,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765303,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765303,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765303,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765286,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765286,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765286,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765286,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765286,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765286,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1497765286,"~/.zshrc"
 -'  1  0  ~/.zshrc
@@ -182,6 +230,54 @@ $
 |4,39,125,0,1497765273,"~/.zshrc"
 -'  125  0  ~/.zshrc
 |4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  125  0  ~/.zshrc
+|4,39,125,0,1497765273,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765252,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765252,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765252,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765252,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765252,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1497765252,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1497765252,"~/.zshrc"
 -'  1  0  ~/.zshrc
@@ -202,6 +298,54 @@ $
 |4,39,17,1,1497765192,"~/.zshrc"
 -'  17  1  ~/.zshrc
 |4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1497765192,"~/.zshrc"
 -'  167  16  ~/.zshrc
 |4,39,167,16,1497765186,"~/.zshrc"
 -'  167  16  ~/.zshrc
@@ -212,154 +356,23 @@ $
 |4,39,167,16,1497765186,"~/.zshrc"
 -'  167  16  ~/.zshrc
 |4,39,167,16,1497765186,"~/.zshrc"
--'  167  16  ~/.zshrc
-|4,39,167,16,1497765186,"~/.zshrc"
--'  167  16  ~/.zshrc
-|4,39,167,16,1497765186,"~/.zshrc"
--'  167  16  ~/.zshrc
-|4,39,167,16,1497765186,"~/.zshrc"
--'  1  16  ~/.zshrc
-|4,39,1,16,1497765178,"~/.zshrc"
--'  1  16  ~/.zshrc
-|4,39,1,16,1497765178,"~/.zshrc"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  11  6  /private/etc/shells
-|4,39,11,6,1497764838,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /private/etc/shells
-|4,39,1,0,1497764832,"/private/etc/shells"
--'  1  0  /eyc/shells
-|4,39,1,0,1497764824,"/eyc/shells"
--'  1  0  /eyc/shells
-|4,39,1,0,1497764824,"/eyc/shells"
--'  1  0  /eyc/shells
-|4,39,1,0,1497764824,"/eyc/shells"
 
 # History of marks within files (newest to oldest):
 
-> ~/.vim/NetrwTreeListing 
+> ~/dotfiles/.gitignore
+	*	1497782016	0
+	"	2	8
+	^	1	5
+	.	1	4
+	+	1	10
+	+	1	9
+	+	1	4
+	+	1	9
+	+	1	7
+	+	2	0
+	+	1	4
+
+> ~/.vim/NetrwTreeListing
 	*	1497765500	0
 	"	1	0
 
