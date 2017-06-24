@@ -1,3 +1,50 @@
+"----------------------------------------------------------
+" プラグイン
+"----------------------------------------------------------
+let s:dein_dir = expand('~/.vim/dein')
+let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
+
+if &compatible
+  set nocompatible
+endif
+
+if !isdirectory(s:dein_repo_dir)
+  execute '!git clone git@github.com:Shougo/dein.vim.git' s:dein_repo_dir
+endif
+
+execute 'set runtimepath^=' . s:dein_repo_dir
+
+call dein#begin(s:dein_dir)
+
+call dein#add('Shougo/dein.vim')
+call dein#add('scrooloose/nerdtree')
+call dein#add('Yggdroot/indentLine')
+call dein#add('Shougo/neocomplete.vim')
+call dein#add('vim-airline/vim-airline')
+
+call dein#add('ctrlpvim/ctrlp.vim')
+call dein#add('tyru/open-browser.vim')
+call dein#add('rhysd/accelerated-jk')
+call dein#add('edkolev/tmuxline.vim')
+call dein#add('tpope/vim-fugitive')
+call dein#add('Townk/vim-autoclose')
+call dein#add('tpope/vim-endwise')
+call dein#add('bronson/vim-trailing-whitespace')
+:
+
+call dein#end()
+
+if dein#check_install()
+  call dein#install()
+endif
+
+filetype plugin indent on
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+"----------------------------------------------------------
+" 設定
+"----------------------------------------------------------
 set encoding=utf-8
 scriptencoding utf-8
 " ↑1行目は読み込み時の文字コードの設定
@@ -47,6 +94,13 @@ set statusline+=%=                     " これ以降は右寄せ表示
 set statusline+=[ENC=%{&fileencoding}] 
 set statusline+=[LOW=%l/%L]            " 現在行数/全行数
 
+set showtabline=2 " 常にタブラインを表示
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_idx_mode = 1
+"let g:airline_theme='papercolor' "落ち着いた色調が好き
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#branch#enabled = 1
+
 "----------------------------------------------------------
 " コマンドモード
 "----------------------------------------------------------
@@ -63,11 +117,11 @@ inoremap <ESC> <ESC>:set iminsert=1<CR>  " ESCでIMEを確実にOFF
 " タブ・インデント
 "----------------------------------------------------------
 set expandtab                          " タブ入力を複数の空白入力に置き換える
-set tabstop=4                          " 画面上でタブ文字が占める幅
-set softtabstop=4                      " 連続した空白に対してタブキーやバックスペースキーでカーソルが動く幅
+set tabstop=2                          " 画面上でタブ文字が占める幅
+set softtabstop=2                      " 連続した空白に対してタブキーやバックスペースキーでカーソルが動く幅
 set autoindent                         " 改行時に前の行のインデントを継続する
 set smartindent                        " 改行時に前の行の構文をチェックし次の行のインデントを増減する
-set shiftwidth=4                       " smartindentで増減する幅
+set shiftwidth=2                       " smartindentで増減する幅
 set nowrap
 
 "----------------------------------------------------------
@@ -102,6 +156,12 @@ nnoremap <up> gk
 
 set backspace=indent,eol,start         " バックスペースキーの有効化
 
+" カーソル行の上下へのオフセットを設定する
+set scrolloff=4
+
+" j/kによる移動を速くする
+nmap j <Plug>(accelerated_jk_gj)
+nmap k <Plug>(accelerated_jk_gk)
 "----------------------------------------------------------
 " カッコ・タグの対応
 "----------------------------------------------------------
@@ -184,8 +244,5 @@ set backup                             " ファイルのバックアップを有
 set writebackup                        " 取得するバックアップを編集前のファイルとする(無効化する場合は「nowritebackup」)
 set backupdir=$HOME/.vim/backup        " このディレクトリはあらかじめ作っておく。chmod 700 するのを忘れずに
 au BufWritePre * let &bex = '.' . strftime("%Y%m%d_%H%M%S")
-
-
-"autocmd VimEnter * exe 'Exp'
 
 

@@ -11,28 +11,76 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/autoload
+~MSle0~/bin
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1497785133,,"wq"
-:q
-|2,0,1497783633,,"q"
-:q!
-|2,0,1497783495,,"q!"
+|2,0,1498276753,,"wq"
 :w
-|2,0,1497764623,,"w"
+|2,0,1498276682,,"w"
+:q
+|2,0,1498276591,,"q"
+:q!
+|2,0,1498273705,,"q!"
+:TmuxlineSnapshot! ~/dotfiles/tmuxline.conf
+|2,0,1498273473,,"TmuxlineSnapshot! ~/dotfiles/tmuxline.conf"
+:TmuxlineSnapshot! ~/.dotfiles/tmuxline.conf
+|2,0,1498273420,,"TmuxlineSnapshot! ~/.dotfiles/tmuxline.conf"
+:clo
+|2,0,1498272765,,"clo"
+:NERDTree
+|2,0,1498272734,,"NERDTree"
+:colorscheme togglebg
+|2,0,1498272728,,"colorscheme togglebg"
+:colorscheme 
+|2,0,1498272716,,"colorscheme "
+:q:
+|2,0,1498269653,,"q:"
+:close
+|2,0,1498269621,,"close"
+:b 1
+|2,0,1498269611,,"b 1"
+:ls
+|2,0,1498269606,,"ls"
+:b3
+|2,0,1498269596,,"b3"
+:b 3
+|2,0,1498269546,,"b 3"
+:Exp
+|2,0,1498269469,,"Exp"
+:Unit dein
+|2,0,1498269159,,"Unit dein"
+:Unite dein
+|2,0,1498232098,,"Unite dein"
+:Unite
+|2,0,1498232029,,"Unite"
+:unnite dein
+|2,0,1498232024,,"unnite dein"
+:dein
+|2,0,1498232020,,"dein"
+:qi
+|2,0,1498232000,,"qi"
+:NERDTreeCWD
+|2,0,1498146431,,"NERDTreeCWD"
+:n
+|2,0,1498144847,,"n"
+:e!
+|2,0,1498141363,,"e!"
+:NERD
+|2,0,1498060322,,"NERD"
+:Ntree
+|2,0,1498060309,,"Ntree"
+:NERDTREE
+|2,0,1498060277,,"NERDTREE"
+:NERDtree
+|2,0,1498060271,,"NERDtree"
+:netrw
+|2,0,1498060212,,"netrw"
 :'<,'>q!
 |2,0,1497764459,,"'<,'>q!"
-:ls
-|2,0,1497505235,,"ls"
-:Exp
-|2,0,1497505232,,"Exp"
-:clo
-|2,0,1497505230,,"clo"
 :Exp /
 |2,0,1497505180,,"Exp /"
 :tabnew ~/.vimrc
@@ -65,22 +113,38 @@ $
 |2,0,1497363559,,"set nowrap"
 :colorscheme solarized
 |2,0,1497363354,,"colorscheme solarized"
-:colorscheme 
-|2,0,1497363344,,"colorscheme "
 :nowrap
 |2,0,1497359921,,"nowrap"
 :colorscheme koehler
 |2,0,1497275108,,"colorscheme koehler"
-:e!
-|2,0,0,,"e!"
 :colorscheme elflord
 |2,0,0,,"colorscheme elflord"
 
 # Search String History (newest to oldest):
-? @$
-|2,1,1497783484,,"@$"
+?/bin
+|2,1,1498276616,47,"bin"
+?/export
+|2,1,1498276466,47,"export"
+?/ctrlp.vim
+|2,1,1498272203,47,"ctrlp.vim"
+?/show
+|2,1,1498271843,47,"show"
+?/shift
+|2,1,1498271832,47,"shift"
+?/shiftw
+|2,1,1498271813,47,"shiftw"
+?/scroll
+|2,1,1498271768,47,"scroll"
 ??\a
-|2,1,1497505320,63,"\\a"
+|2,1,1498269631,63,"\\a"
+? @$
+|2,1,1498269631,,"@$"
+?/laststatus
+|2,1,1498269367,47,"laststatus"
+?/256
+|2,1,1498269341,47,"256"
+?/mouse
+|2,1,1498257502,47,"mouse"
 ?/autoload
 |2,1,1497500275,47,"autoload"
 ? \<set\>
@@ -100,265 +164,547 @@ $
 
 # Registers:
 "0	LINE	0
-	.vim/backup/*  
-	!.gitkeep
-|3,0,0,1,2,0,1497785086,".vim/backup/*  ","!.gitkeep"
+	call dein#add('bronson/vim-trailing-whitespace')
+|3,0,0,1,1,0,1498272493,"call dein#add('bronson/vim-trailing-whitespace')"
 "1	LINE	0
-	.zsh_history
-|3,0,1,1,1,0,1497783484,".zsh_history"
+	# emacs 風キーバインドにする
+	bindkey -v
+|3,0,1,1,2,0,1498276659,"# emacs 風キーバインドにする","bindkey -v"
 "2	LINE	0
-	.zshrc@
-|3,0,2,1,1,0,1497783484,".zshrc@"
+	let g:airline_theme='papercolor' "落ち着いた色調が好き
+|3,0,2,1,1,0,1498269761,"let g:airline_theme='papercolor' \"落ち着いた色調が好き"
 "3	LINE	0
-	.zshenv@
-|3,0,3,1,1,0,1497783484,".zshenv@"
+	call dein#add('vim-airline/vim-airline-themes')
+|3,0,3,1,1,0,1498269686,"call dein#add('vim-airline/vim-airline-themes')"
 "4	LINE	0
-	.zprofile@
-|3,0,4,1,1,0,1497783484,".zprofile@"
+	call dein#add('vim-airline/vim-airline-themes')
+|3,0,4,1,1,0,1498269680,"call dein#add('vim-airline/vim-airline-themes')"
 "5	LINE	0
-	.zpreztorc@
-|3,0,5,1,1,0,1497783484,".zpreztorc@"
+	.vol/
+|3,0,5,1,1,0,1498269631,".vol/"
 "6	LINE	0
-	.zprezto/
-|3,0,6,1,1,0,1497783484,".zprezto/"
+	.Trashes/
+|3,0,6,1,1,0,1498269631,".Trashes/"
 "7	LINE	0
-	.zlogout@
-|3,0,7,1,1,0,1497783484,".zlogout@"
+	.Spotlight-V100/
+|3,0,7,1,1,0,1498269631,".Spotlight-V100/"
 "8	LINE	0
-	.zlogin@
-|3,0,8,1,1,0,1497783484,".zlogin@"
+	.OSInstallerMessages
+|3,0,8,1,1,0,1498269631,".OSInstallerMessages"
 "9	LINE	0
-	.zcompdump.zwc
-|3,0,9,1,1,0,1497783484,".zcompdump.zwc"
+	.fseventsd/
+|3,0,9,1,1,0,1498269631,".fseventsd/"
 ""-	CHAR	0
-	backup
-|3,1,36,0,1,0,1497785128,"backup"
+	 
+|3,1,36,0,1,0,1498276664," "
 
 # File marks:
-'0  4  10  ~/dotfiles/.gitignore
-|4,48,4,10,1497785133,"~/dotfiles/.gitignore"
-'1  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,49,1,0,1497784388,"~/dotfiles/.git/COMMIT_EDITMSG"
-'2  2  8  ~/dotfiles/.gitignore
-|4,50,2,8,1497784302,"~/dotfiles/.gitignore"
-'3  2  8  ~/dotfiles/.gitignore
-|4,51,2,8,1497784302,"~/dotfiles/.gitignore"
-'4  1  0  ~/dotfiles/.vim/.gitkeep
-|4,52,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
-'5  1  5  ~/dotfiles/.gitignore
-|4,53,1,5,1497784086,"~/dotfiles/.gitignore"
-'6  1  5  ~/dotfiles/.gitignore
-|4,54,1,5,1497784086,"~/dotfiles/.gitignore"
-'7  1  5  ~/dotfiles/.gitignore
-|4,55,1,5,1497784086,"~/dotfiles/.gitignore"
-'8  1  5  ~/dotfiles/.gitignore
-|4,56,1,5,1497784086,"~/dotfiles/.gitignore"
-'9  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,57,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
+'0  49  0  ~/.zshrc
+|4,48,49,0,1498276753,"~/.zshrc"
+'1  8  3  ~/.zshrc
+|4,49,8,3,1498276569,"~/.zshrc"
+'2  8  3  ~/.zshrc
+|4,50,8,3,1498276569,"~/.zshrc"
+'3  1  0  ~/.zsh
+|4,51,1,0,1498276454,"~/.zsh"
+'4  62  0  ~/.tmux.conf
+|4,52,62,0,1498275082,"~/.tmux.conf"
+'5  134  2  ~/.tmux.conf
+|4,53,134,2,1498275000,"~/.tmux.conf"
+'6  134  2  ~/.tmux.conf
+|4,54,134,2,1498275000,"~/.tmux.conf"
+'7  36  0  ~/.tmux.conf
+|4,55,36,0,1498274981,"~/.tmux.conf"
+'8  36  0  ~/.tmux.conf
+|4,56,36,0,1498274981,"~/.tmux.conf"
+'9  36  0  ~/.tmux.conf
+|4,57,36,0,1498274981,"~/.tmux.conf"
 
 # Jumplist (newest first):
--'  4  10  ~/dotfiles/.gitignore
-|4,39,4,10,1497785133,"~/dotfiles/.gitignore"
--'  1  0  ~/dotfiles/.gitignore
-|4,39,1,0,1497785081,"~/dotfiles/.gitignore"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497784388,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497784388,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  2  8  ~/dotfiles/.gitignore
-|4,39,2,8,1497784302,"~/dotfiles/.gitignore"
--'  2  8  ~/dotfiles/.gitignore
-|4,39,2,8,1497784302,"~/dotfiles/.gitignore"
--'  2  8  ~/dotfiles/.gitignore
-|4,39,2,8,1497784302,"~/dotfiles/.gitignore"
--'  1  0  ~/dotfiles/.gitignore
-|4,39,1,0,1497784237,"~/dotfiles/.gitignore"
--'  1  0  ~/dotfiles/.gitignore
-|4,39,1,0,1497784237,"~/dotfiles/.gitignore"
--'  1  0  ~/dotfiles/.vim/.gitkeep
-|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
--'  1  0  ~/dotfiles/.vim/.gitkeep
-|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
--'  1  0  ~/dotfiles/.vim/.gitkeep
-|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
--'  1  0  ~/dotfiles/.vim/.gitkeep
-|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
--'  1  0  ~/dotfiles/.vim/.gitkeep
-|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
--'  1  0  ~/dotfiles/.vim/.gitkeep
-|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
--'  1  0  ~/dotfiles/.vim/.gitkeep
-|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
--'  1  0  ~/dotfiles/.vim/.gitkeep
-|4,39,1,0,1497784106,"~/dotfiles/.vim/.gitkeep"
--'  1  5  ~/dotfiles/.gitignore
-|4,39,1,5,1497784086,"~/dotfiles/.gitignore"
--'  1  5  ~/dotfiles/.gitignore
-|4,39,1,5,1497784086,"~/dotfiles/.gitignore"
--'  1  5  ~/dotfiles/.gitignore
-|4,39,1,5,1497784086,"~/dotfiles/.gitignore"
--'  1  5  ~/dotfiles/.gitignore
-|4,39,1,5,1497784086,"~/dotfiles/.gitignore"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  1  0  ~/dotfiles/.vim/backup/.gitkeep
-|4,39,1,0,1497783983,"~/dotfiles/.vim/backup/.gitkeep"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  8  15  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,8,15,1497783633,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/.git/COMMIT_EDITMSG
-|4,39,1,0,1497783613,"~/dotfiles/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.zshrc
+|4,39,49,0,1498276753,"~/.zshrc"
+-'  17  0  ~/.zshrc
+|4,39,17,0,1498276616,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1498276605,"~/.zshrc"
+-'  8  3  ~/.zshrc
+|4,39,8,3,1498276569,"~/.zshrc"
+-'  8  3  ~/.zshrc
+|4,39,8,3,1498276569,"~/.zshrc"
+-'  8  3  ~/.zshrc
+|4,39,8,3,1498276569,"~/.zshrc"
+-'  170  1  ~/.zshrc
+|4,39,170,1,1498276540,"~/.zshrc"
+-'  164  1  ~/.zshrc
+|4,39,164,1,1498276540,"~/.zshrc"
+-'  164  1  ~/.zshrc
+|4,39,164,1,1498276540,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1498276478,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1498276478,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1498276478,"~/.zshrc"
+-'  179  8  ~/.zshrc
+|4,39,179,8,1498276477,"~/.zshrc"
+-'  173  8  ~/.zshrc
+|4,39,173,8,1498276477,"~/.zshrc"
+-'  173  8  ~/.zshrc
+|4,39,173,8,1498276477,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1498276466,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1498276466,"~/.zshrc"
+-'  1  0  ~/.zsh
+|4,39,1,0,1498276454,"~/.zsh"
+-'  1  0  ~/.zsh
+|4,39,1,0,1498276454,"~/.zsh"
+-'  1  0  ~/.zsh
+|4,39,1,0,1498276454,"~/.zsh"
+-'  1  0  ~/.zsh
+|4,39,1,0,1498276454,"~/.zsh"
+-'  1  0  ~/.zsh
+|4,39,1,0,1498276454,"~/.zsh"
+-'  1  0  ~/.zsh
+|4,39,1,0,1498276454,"~/.zsh"
+-'  1  0  ~/.zsh
+|4,39,1,0,1498276454,"~/.zsh"
+-'  1  0  ~/.zsh
+|4,39,1,0,1498276454,"~/.zsh"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  62  0  ~/.tmux.conf
+|4,39,62,0,1498275082,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  135  0  ~/.tmux.conf
+|4,39,135,0,1498275053,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  132  0  ~/.tmux.conf
+|4,39,132,0,1498275051,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  50  0  ~/.tmux.conf
+|4,39,50,0,1498275048,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1498275025,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1498275025,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1498275025,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1498275025,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1498275025,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1498275025,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1498275025,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1498275025,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1498275025,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1498275025,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1498275025,"~/.tmux.conf"
 
 # History of marks within files (newest to oldest):
+
+> ~/.zshrc
+	*	1498276751	0
+	"	49	0
+	^	38	0
+	.	37	0
+	+	1	0
+	+	1	23
+	+	253	0
+	+	144	16
+	+	189	0
+	+	190	0
+	+	251	33
+	+	9	40
+	+	10	113
+	+	23	0
+	+	13	0
+	+	16	0
+	+	19	0
+	+	22	0
+	+	23	0
+	+	20	0
+	+	17	0
+	+	14	0
+	+	8	0
+	+	29	9
+	+	33	39
+	+	36	1
+	+	35	1
+	+	34	0
+	+	33	0
+	+	29	0
+	+	32	0
+	+	35	0
+	+	36	0
+	+	37	0
+
+> ~/.zsh
+	*	1498276451	0
+	"	1	0
+
+> ~/.tmux.conf
+	*	1498275076	0
+	"	62	0
+	^	134	1
+	.	134	0
+	+	45	35
+	+	39	0
+	+	60	23
+	+	106	41
+	+	138	34
+	+	68	0
+	+	70	0
+	+	72	0
+	+	73	0
+	+	74	0
+	+	75	0
+	+	76	0
+	+	77	0
+	+	78	0
+	+	79	0
+	+	80	0
+	+	81	0
+	+	82	0
+	+	83	0
+	+	84	0
+	+	85	0
+	+	86	0
+	+	87	0
+	+	88	0
+	+	89	0
+	+	90	0
+	+	91	0
+	+	92	0
+	+	93	0
+	+	94	0
+	+	95	0
+	+	96	0
+	+	97	0
+	+	98	0
+	+	99	0
+	+	100	0
+	+	102	0
+	+	103	0
+	+	104	0
+	+	105	0
+	+	106	0
+	+	107	0
+	+	54	0
+	+	55	0
+	+	56	0
+	+	45	35
+	+	36	52
+	+	39	0
+	+	1	9
+	+	17	27
+	+	23	0
+	+	49	0
+	+	20	45
+	+	87	0
+	+	13	0
+	+	11	0
+	+	134	85
+	+	2	51
+	+	8	46
+	+	6	34
+	+	134	0
+
+> ~/.vimrc
+	*	1498273542	0
+	"	241	1
+	^	31	32
+	.	31	31
+	+	975	0
+	+	975	38
+	+	975	73
+	+	975	12
+	+	975	0
+	+	975	66
+	+	975	0
+	+	975	10
+	+	975	0
+	+	975	38
+	+	975	25
+	+	975	0
+	+	975	5
+	+	975	0
+	+	975	40
+	+	975	59
+	+	975	66
+	+	975	126
+	+	975	165
+	+	975	236
+	+	975	237
+	+	975	251
+	+	975	0
+	+	786	0
+	+	597	0
+	+	408	0
+	+	251	0
+	+	50	0
+	+	251	0
+	+	1	0
+	+	47	0
+	+	48	5
+	+	2	14
+	+	24	45
+	+	24	0
+	+	23	0
+	+	24	0
+	+	35	47
+	+	23	0
+	+	34	0
+	+	35	0
+	+	23	0
+	+	24	0
+	+	19	50
+	+	24	46
+	+	101	32
+	+	24	0
+	+	100	0
+	+	102	44
+	+	102	43
+	+	103	0
+	+	120	12
+	+	121	16
+	+	124	15
+	+	160	16
+	+	159	0
+	+	160	0
+	+	162	35
+	+	164	0
+	+	163	0
+	+	24	0
+	+	25	0
+	+	25	32
+	+	26	35
+	+	27	34
+	+	28	34
+	+	29	32
+	+	30	33
+	+	34	0
+	+	32	45
+	+	31	31
+
+> ~/NERD_tree_1
+	*	1498272768	0
+	"	9	5
+	.	1	0
+	+	1	0
+
+> ~/20170614.txt
+	*	1498272762	0
+	"	99	18
+	^	145	0
+	.	145	0
+	+	20	27
+	+	20	0
+	+	20	30
+	+	22	96
+	+	24	97
+	+	26	33
+	+	43	108
+	+	57	106
+	+	88	0
+	+	59	0
+	+	58	88
+	+	81	0
+	+	82	0
+	+	145	0
+
+> ~/NERD_tree_2
+	*	1498269593	0
+	"	13	0
+	.	1	0
+	+	1	0
+
+> ~/dotfiles/dotfilesLink.sh
+	*	1498257460	0
+	"	1	0
+
+> ~/solarized.git/README.md
+	*	1498232232	0
+	"	14	0
+
+> ~/vim-nerdtree-tabs/README.md
+	*	1498232200	0
+	"	2	0
+
+> ~/dotfiles/setup.sh
+	*	1498146449	0
+	"	8	0
+	^	17	0
+	.	16	2
+	+	1	11
+	+	16	0
+	+	8	0
+	+	10	0
+	+	12	0
+	+	14	0
+	+	16	0
+	+	11	1
+	+	15	1
+	+	16	2
+
+> ~/dotfiles/ControlP
+	*	1498144875	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/dotfiles/NERD_tree_1
+	*	1498144862	0
+	"	18	5
+	.	1	0
+	+	1	0
+
+> ~/dotfiles/.tmux.conf
+	*	1498142335	0
+	"	1	0
+	^	93	1
+	.	93	0
+	+	76	0
+	+	119	66
+	+	93	3
+	+	92	0
+	+	94	0
+	+	95	0
+	+	96	0
+	+	93	0
+
+> ~/.ssh/config
+	*	1498058195	0
+	"	5	26
+
+> ~/dotfiles/.vim/.vimrc
+	*	1498055828	0
+	"	1	0
+
+> ~/dotfiles/.git/COMMIT_EDITMSG
+	*	1497785203	0
+	"	1	0
 
 > ~/dotfiles/.gitignore
 	*	1497785131	0
@@ -380,10 +726,6 @@ $
 	+	7	8
 	+	4	8
 
-> ~/dotfiles/.git/COMMIT_EDITMSG
-	*	1497784378	0
-	"	1	0
-
 > ~/dotfiles/.vim/.gitkeep
 	*	1497784105	0
 	"	1	0
@@ -397,37 +739,6 @@ $
 	^	1	1
 	.	1	0
 	+	1	0
-
-> ~/dotfiles/dotfilesLink.sh
-	*	1497783525	0
-	"	2	0
-
-> ~/dotfiles/.tmux.conf
-	*	1497783430	0
-	"	96	1
-	^	93	1
-	.	93	0
-	+	76	0
-	+	119	66
-	+	93	3
-	+	92	0
-	+	94	0
-	+	95	0
-	+	96	0
-	+	93	0
-
-> ~/.zshrc
-	*	1497783028	0
-	"	232	1
-	^	231	0
-	.	230	33
-	+	1	0
-	+	1	23
-	+	232	0
-	+	123	16
-	+	168	0
-	+	169	0
-	+	230	33
 
 > ~/.vim/NetrwTreeListing
 	*	1497765500	0
@@ -445,85 +756,6 @@ $
 	*	1497764822	0
 	"	1	0
 
-> ~/.tmux.conf
-	*	1497764517	0
-	"	74	0
-	^	74	33
-	.	74	0
-	+	32	35
-	+	26	0
-	+	47	23
-	+	93	41
-	+	124	34
-	+	55	0
-	+	57	0
-	+	59	0
-	+	60	0
-	+	61	0
-	+	62	0
-	+	63	0
-	+	64	0
-	+	65	0
-	+	66	0
-	+	67	0
-	+	68	0
-	+	69	0
-	+	70	0
-	+	71	0
-	+	72	0
-	+	73	0
-	+	74	0
-	+	75	0
-	+	76	0
-	+	77	0
-	+	78	0
-	+	79	0
-	+	80	0
-	+	81	0
-	+	82	0
-	+	83	0
-	+	84	0
-	+	85	0
-	+	86	0
-	+	87	0
-	+	89	0
-	+	90	0
-	+	91	0
-	+	92	0
-	+	93	0
-	+	94	0
-	+	41	0
-	+	42	0
-	+	43	0
-	+	32	35
-	+	23	52
-	+	26	0
-	+	1	9
-	+	4	27
-	+	10	0
-	+	36	0
-	+	7	45
-	+	74	0
-
-> ~/20170614.txt
-	*	1497505230	0
-	"	1	0
-	^	83	0
-	.	82	0
-	+	20	27
-	+	20	0
-	+	20	30
-	+	22	96
-	+	24	97
-	+	26	33
-	+	43	108
-	+	57	106
-	+	88	0
-	+	59	0
-	+	58	88
-	+	81	0
-	+	82	0
-
 > ~/.vim/backup/20170614.txt.20170615_111448
 	*	1497505157	0
 	"	1	0
@@ -539,28 +771,6 @@ $
 > ~/.vim/viminfo.txt
 	*	1497505079	0
 	"	16	0
-
-> ~/.vimrc
-	*	1497504960	0
-	"	189	3
-	^	189	1
-	.	189	0
-	+	14	0
-	+	15	38
-	+	14	38
-	+	15	73
-	+	12	12
-	+	191	0
-	+	15	0
-	+	16	66
-	+	12	0
-	+	16	0
-	+	15	0
-	+	71	10
-	+	95	0
-	+	12	0
-	+	95	0
-	+	189	0
 
 > ~/.ximrc
 	*	1497504934	0
@@ -760,10 +970,6 @@ $
 > ~/Downloads/railscasts.vim-master/Railscasts.terminal
 	*	1497400250	0
 	"	2	0
-
-> ~/solarized.git/README.md
-	*	1497400210	0
-	"	48	0
 
 > ~/.zpreztorc
 	"	40	0

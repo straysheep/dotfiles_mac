@@ -1,0 +1,2 @@
+100
+['Shougo/dein.vim', 'Shougo/neocomplete.vim', 'Townk/vim-autoclose', 'Yggdroot/indentLine', 'bronson/vim-trailing-whitespace', 'ctrlpvim/ctrlp.vim', 'edkolev/tmuxline.vim', 'rhysd/accelerated-jk', 'scrooloose/nerdtree', 'tpope/vim-endwise', 'tpope/vim-fugitive', 'tyru/open-browser.vim', 'vim-airline/vim-airline']
