@@ -40,13 +40,6 @@ HISTFILE=~/.zsh_history
 HISTSIZE=1000000
 SAVEHIST=1000000
 
-# プロンプト
-# 1行表示
-# PROMPT="%~ %# "
-# 2行表示
-PROMPT="%{${fg[green]}%}[%n@%m]%{${reset_color}%} %~
-%# "
-
 
 # 単語の区切り文字を指定する
 autoload -Uz select-word-style
@@ -77,18 +70,70 @@ zstyle ':completion:*:processes' command 'ps x -o pid,s,args'
 
 
 ########################################
-# vcs_info
+## vcs_info
+#autoload -Uz vcs_info
+#autoload -Uz add-zsh-hook
+##
+#zstyle ':vcs_info:*' formats '%F{green}(%s)-[%b]%f'
+#zstyle ':vcs_info:*' actionformats '%F{red}(%s)-[%b|%a]%f'
+##
+
 autoload -Uz vcs_info
-autoload -Uz add-zsh-hook
-
-zstyle ':vcs_info:*' formats '%F{green}(%s)-[%b]%f'
-zstyle ':vcs_info:*' actionformats '%F{red}(%s)-[%b|%a]%f'
-
+zstyle ':vcs_info:*' formats '[%b]'
+zstyle ':vcs_info:*' actionformats '[%b|%a]'
 function _update_vcs_info_msg() {
     LANG=en_US.UTF-8 vcs_info
     RPROMPT="${vcs_info_msg_0_}"
 }
-add-zsh-hook precmd _update_vcs_info_msg
+precmd () {
+  # 1行あける
+  print
+  # カレントディレクトリ
+#  local left=' %{\e[38;5;2m%}(%~)%{\e[m%}'
+  local left=' %{\e[38;5;2m%}%{${fg[green]}%}[%n@%m]%{${reset_color}%} %~%{\e[m%}'
+  # バージョン管理されてた場合、ブランチ名
+  vcs_info
+  local right="%{\e[38;5;32m%}${vcs_info_msg_0_}%{\e[m%}"
+  # スペースの長さを計算
+  # テキストを装飾する場合、エスケープシーケンスをカウントしないようにします
+  local invisible='%([BSUbfksu]|([FK]|){*})'
+  local leftwidth=${#${(S%%)left//$~invisible/}}
+  local rightwidth=${#${(S%%)right//$~invisible/}}
+  local padwidth=$(($COLUMNS - ($leftwidth + $rightwidth) % $COLUMNS))
+
+  print -P $left${(r:$padwidth:: :)}$right
+}
+# ユーザ名@ホスト名
+PROMPT='%# '
+
+#現在時刻
+RPROMPT=$'%{\e[38;5;251m%}%D{%b %d}, %*%{\e[m%}'
+TMOUT=1
+TRAPALRM() {
+  zle reset-prompt
+}
+
+##===============================================================
+# もしかして機能
+setopt correct
+# PCRE 互換の正規表現を使う
+setopt re_match_pcre
+# プロンプトが表示されるたびにプロンプト文字列を評価、置換する
+setopt prompt_subst
+#
+# プロンプト指定(コマンドの続き)
+PROMPT2='[%n]> '
+# もしかして時のプロンプト指定
+SPROMPT="%{$fg[red]%}%{$suggest%}(*'~'%)? < もしかして %B%r%b %{$fg[red]%}かな? [そう!(y), 違う!(n),a,e]:${reset_color} "
+##===============================================================
+
+
+
+
+
+
+
+#add-zsh-hook precmd _update_vcs_info_msg
 
 
 ########################################
